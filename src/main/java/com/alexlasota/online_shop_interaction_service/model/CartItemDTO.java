@@ -14,10 +14,4 @@ public class CartItemDTO {
     private Long productId;
     private Integer quantity;
     private BigDecimal price;
-
-    public CartItemDTO(Long productId, Integer quantity, BigDecimal price) {
-        this.productId = productId;
-        this.quantity = quantity;
-        this.price = price;
-    }
 }

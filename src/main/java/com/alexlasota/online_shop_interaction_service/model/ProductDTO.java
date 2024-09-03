@@ -18,12 +18,4 @@ public class ProductDTO {
     private BigDecimal finalPrice;
     private String type;
     private Set<ProductAttributeDTO> attributes = new HashSet<>();
-
-    public ProductDTO(Long id, String name, BigDecimal price, String type) {
-        this.id = id;
-        this.name = name;
-        this.basePrice = price;
-        this.finalPrice = price;
-        this.type = type;
-    }
 }

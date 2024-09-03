@@ -16,11 +16,4 @@ public class CartDTO {
     private LocalDateTime createdAt;
     private BigDecimal totalPrice;
     private List<CartItemDTO> items;
-
-    public CartDTO(Long id, List<CartItemDTO> items, BigDecimal totalPrice) {
-        this.id = id;
-        this.items = items;
-        this.totalPrice = totalPrice;
-        this.createdAt = LocalDateTime.now(); // Ustawiamy bieżący czas
-    }
 }
